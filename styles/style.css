@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.logo {
+    width: 13%;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    min-height: 600px;
+    background: url("../images/1.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 2px solid red;*/
+    width: 90%;
+    position: relative;
+    background-color: rgba(95, 186, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.menu {
+    width: 50%;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-link {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    transition: 400ms;
+    border: 3px solid rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    text-shadow: 1px 1px 2px black;
+    font-family: "Comfortaa", cursive;
+}
+.menu-link:hover {
+    transform: scale(1.2);
+    border: 3px solid rgba(255,153,102,1);
+    border-radius: 12px;
+}
+.phone span {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.phone button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    margin-left: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-right: 10px;
+}
+.slogan {
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: "Comfortaa", cursive;
+    border: 2px solid white;
+    border-radius: 13px;
+    padding: 0 20px;
+    background-color: rgba(99, 190, 255, 0.3);
+}
+.button_fast a{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 13px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+}
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    min-height: 600px;
+    background: url("../images/1.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;*/
+#tours {
+    background: url("../images/2.jpg") no-repeat center;
+    font-family: "Comfortaa", cursive;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+}
+
+.tour_h2 {
+    color: white;
+    background: orange;
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+.container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        margin-bottom: 100px;
+}
+
+#tours .container > div {
+    color: white;
+    background-color: rgba(99, 190, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px 10px;
+    text-shadow: 1px 1px 5px black;
+    transition: 500ms;
+}
+#tours .container > div:hover {
+    transform: scale(1.2);
+}
+#tours div > p, h3 {
+    background-color: #ffa500;
+}
+#tours div img {
+    border: 2px solid orange;
+}
+
+/* Адаптация для мобилки */
+@media screen and (max-width: 500px) {
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        transform: scale(0.6);
+    }
+
+}
+
