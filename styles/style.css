@@ -86,7 +86,7 @@ body {
     font-family: "Comfortaa", cursive;
     border: 2px solid white;
     border-radius: 13px;
-    padding: 0px 20px;
+    padding: 0 20px;
     background-color: rgba(99, 190, 255, 0.3);
 }
 .button_fast a{
@@ -100,7 +100,6 @@ body {
     font-size: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     cursor: pointer;
-    font-family: "Yanone Kaffeesatz";
     letter-spacing: 2px;
     word-spacing: 5px;
     margin-bottom: 20px;
